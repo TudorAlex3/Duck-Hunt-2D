@@ -4,12 +4,12 @@ This is an implementation of a Duck Hunt game. You can test the original game he
 
 ### Ducks
 
-###### ➢ Construction
+#### ➢ Construction
 
 The ducks are represented by a few 2D geometric primitives (at least 4: body, wings, and head), positioned suggestively.
 
 
-###### ➢ Animation
+#### ➢ Animation
 
 To build the duck, a set of several manually defined objects is needed that will move together but will also have independent animations.
 Thus, the duck:
@@ -18,12 +18,12 @@ Thus, the duck:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Will fly in various directions uniformly - the entire set of objects that make up the duck will move or rotate together.<br>
 
 
-###### ➢ Display
+#### ➢ Display
 
 The ducks appear one by one on the screen, so that at any given time, there is only one duck present on the scene. When a duck is shot or evades, the next one can be displayed.
 
 
-###### ➢ Movement
+#### ➢ Movement
 
 The ducks appear at the bottom of the screen and will start flying in a random direction on the plane. Continuing in that direction, at some point, they will reach the edge of the screen. In this situation, the duck must "bounce" and continue in the corresponding direction, like a billiard ball hitting the edge of the table.
 
@@ -57,7 +57,7 @@ The goal of the game is for the player to shoot as many ducks as possible before
 The ducks appear one by one on the screen, each after the disappearance (by evading or being shot) of the previous one. A duck will fall to the ground when shot and will fly vertically upwards to symbolize evasion.
 
 
-###### ➢ Shooting
+#### ➢ Shooting
 
 To shoot a duck, the player has 3 bullets that will reload each time a new duck appears. Each time the player clicks on the screen, it will be considered as a bullet shot at that point on the screen, and the number of available bullets will decrease by 1. If the point on the screen where the bullet was shot intersects with the duck, it will be considered shot, and the score will increase, and the duck will fall to the ground.
 
