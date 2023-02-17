@@ -59,3 +59,14 @@ The ducks appear one by one on the screen, each after the disappearance (by evad
 
 To shoot a duck, the player has 3 bullets that will reload each time a new duck appears. Each time the player clicks on the screen, it will be considered as a bullet shot at that point on the screen, and the number of available bullets will decrease by 1. If the point on the screen where the bullet was shot intersects with the duck, it will be considered shot, and the score will increase, and the duck will fall to the ground.
 
+### Bonus features
+
+➢ Variable score based on the duck's speed and a multiplier applied for the number of consecutive ducks shot (killing spree). An animated element (for example, a simple rotating diamond shape) needs to be displayed when this threshold is reached.
+
+➢ After 5 ducks appear, the game advances to the next level and the ducks move faster.
+
+➢ Each duck has a random color (similar to the original game).
+
+➢ Creating the bottom grass layer behind which the duck appears, so that it doesn't suddenly appear on the screen out of nowhere.
+
+➢ "Special" ducks that give the player certain abilities - an extra bullet, an extra life.
