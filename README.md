@@ -1,5 +1,7 @@
 # Duck Hunt 2D
 
+This is an implementation of a Duck Hunt game. You can test the original game here: https://www.duck-hunt.org/.
+
 ### Ducks
 
 ###### ➢ Construction
