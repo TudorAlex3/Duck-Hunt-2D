@@ -12,8 +12,8 @@ The ducks are represented by a few 2D geometric primitives (at least 4: body, wi
 To build the duck, a set of several manually defined objects is needed that will move together but will also have independent animations.
 Thus, the duck:
 
-&nbsp;&nbsp;&nbsp;Will have a flying animation: it will flap its wings - a simple rotation on each wing.
-&nbsp;&nbsp;&nbsp;Will fly in various directions uniformly - the entire set of objects that make up the duck will move or rotate together.
+&nbsp;&nbsp;&nbsp;Will have a flying animation: it will flap its wings - a simple rotation on each wing. <br>
+&nbsp;&nbsp;&nbsp;Will fly in various directions uniformly - the entire set of objects that make up the duck will move or rotate together.<br>
 
 
 ###### ➢ Display
@@ -44,8 +44,8 @@ At any given time, the player needs to know how many bullets are available. For 
 
 For each shot duck, the player's score will increase. It will also be represented in the graphical interface in the upper right corner with the help of two rectangles:
 
-&nbsp;&nbsp;&nbsp; A wireframe rectangle, which represents the maximum score level.
-&nbsp;&nbsp;&nbsp; A solid blue rectangle inside the wireframe, which represents the current score.
+&nbsp;&nbsp;&nbsp; A wireframe rectangle, which represents the maximum score level.<br>
+&nbsp;&nbsp;&nbsp; A solid blue rectangle inside the wireframe, which represents the current score.<br>
 
 
 ### Gameplay
