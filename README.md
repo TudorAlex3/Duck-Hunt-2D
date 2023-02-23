@@ -1,4 +1,5 @@
 # Duck Hunt 2D
+
 <p align="justify">
 This is an implementation of a Duck Hunt game. You can test the original game here: https://www.duck-hunt.org/.
 </p>
